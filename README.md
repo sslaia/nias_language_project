@@ -1,4 +1,7 @@
-# nias_language_project
+# Proyek Melestarikan Bahasa Nias
+
+In English: *a project of making the endangered Nias language sexy again by using it!!!*
+
 Koleksi proyek terbuka (open source) seputar bahasa Nias (kamus pemeriksaan ejaan, papan ketik Nias di smartphones Android dan desktop PC, beberapa Android apps yang mendorong penggunaan bahasa Nias).
 
 Tak dibantah lagi bahwa penggunaan bahasa Nias semakin berkurang dewasa ini. Proyek ini bertujuan menciptakan sarana bagi orang Nias mengetik dan menggunakan bahasa Nias kala berkomunikasi di media sosial maupun kala mengetik dalam bahasa Nias di komputer.
