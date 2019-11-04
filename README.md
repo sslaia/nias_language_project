@@ -7,13 +7,13 @@ Tak dibantah lagi bahwa penggunaan bahasa Nias semakin berkurang dewasa ini. Pro
 
 - Daftar kata Nias untuk **pemeriksaan ejaan** (nia_NIA.dic)
 - Aturan tatabahasa untuk **pemenggalan kata** (hypenation) (nia_NIA.aff)
-- **Keyboard Nias** untuk smartphones
+- [Keyboard Nias](https://github.com/sslaia/LanguagePack) untuk smartphones
 - **Keyboard Nias** untuk komputer dengan Linux dan MS Windows
-- Android app untuk *mendokumentasi tanaman dan binatang Nias* (**Nias Explorer**)
-- Android app untuk *menulis cerita dalam bahasa Nias* (**Towi-Towi**)
+- Android app untuk *mendokumentasi tanaman dan binatang Nias* ([Nias Explorer](https://github.com/sslaia/Nias-Explorer))
+- Android app untuk *menulis cerita dalam bahasa Nias* ([Towi-Towi](https://github.com/sslaia/Towi-Towi))
 - ...
 
-Masih ada proyek lain yang penulis jalankan seperti proyek menerjemahkan buku Elio Modigliani yang mendokumentasikan Nias di abad ke-19 (proyek [Elio ba Danö Nia](https://elionias.blogspot.com/)) atau terjemahan populer (*crowd-translation*) Kitab Suci Perjanjian Baru (proyek **Taroma Li Nono Niha**), tetapi penulis masih mencari *platform* yang memungkinkan kolaborasi penerjemahan yang tepat.
+Masih ada proyek lain yang penulis jalankan seperti proyek menerjemahkan buku Elio Modigliani yang mendokumentasikan Nias di abad ke-19 (proyek [Elio ba Danö Nia](https://elionias.blogspot.com/)) atau terjemahan populer (*crowd-translation*) Kitab Suci Perjanjian Baru (proyek **Taroma Li Khö Nono Niha**), tetapi penulis masih mencari *platform* yang memungkinkan kolaborasi penerjemahan yang tepat.
 
 ## Cara berpartisipasi (lihat catatan di masing-masing proyek folder)
 
