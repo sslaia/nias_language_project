@@ -9,13 +9,13 @@ Ada dua file utama di folder ini: nia_NIA.dic dan nia_NIA.aff.
 Untuk memeriksa teks dan menyuruh hunspell menyimpan kata-kata dalam kamus nia_NIA.dic jalankan perintah berikut di *command line* di dalam folder ini:
 
 ```
-hunspell -p ./nia_NIA.dic -d ./nia_NIA.dic NAMA_FILE_TEKS
+hunspell -p ./nia_NIA.dic -d ./nia_NIA NAMA_FILE_TEKS
 ```
 
 Misalnya untuk memeriksa ejaan teks bernama *harumani.txt*:
 
 ```
-hunspell -p ./nia_NIA.dic -d ./nia_NIA.dic harumani.txt
+hunspell -p ./nia_NIA.dic -d ./nia_NIA harumani.txt
 ```
 
 ## Syarat untuk menggunakan
