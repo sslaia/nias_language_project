@@ -3,3 +3,8 @@ Apostrophs:
 For words: ʼ
 Single quote: ’
 Double quote: ”
+
+
+
+ndraʼo’
+
