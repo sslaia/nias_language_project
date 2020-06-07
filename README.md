@@ -10,7 +10,7 @@ Tak dibantah lagi bahwa penggunaan bahasa Nias semakin berkurang dewasa ini. Pro
 
 - Daftar kata Nias untuk **pemeriksaan ejaan** (nia_NIA.dic)
 - Aturan tatabahasa untuk **pemenggalan kata** (hypenation) (nia_NIA.aff)
-- [Keyboard Nias](https://github.com/sslaia/LanguagePack) untuk smartphones
+- [Keyboard Nias](https://github.com/sslaia/AnySoftKeyboard/tree/master/addons/languages/nias) untuk smartphones
 - **Keyboard Nias** untuk komputer dengan Linux dan MS Windows
 - Android app untuk *mendokumentasi tanaman dan binatang Nias* ([Nias Explorer](https://github.com/sslaia/Nias-Explorer))
 - Android app untuk *menulis cerita dalam bahasa Nias* ([Towi-Towi](https://github.com/sslaia/Towi-Towi))
