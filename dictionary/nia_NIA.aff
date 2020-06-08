@@ -1,0 +1,117 @@
+# this is the affix file of the nia_NIA Hunspell dictionary
+# created from scratch by Sirus Laia
+#
+# Version: 20200607
+#
+# Copyright (C) 2019 Sirus Laia <laia.sirus@gmail.com>
+#
+# License: GPLv2, GPLv3
+# There should be a copy of both of this licenses included
+# with every distribution of this dictionary. Modified
+# versions using the GPL may only include the GPL
+# 
+# This file was created based on the research paper
+# written by Waözisökhi Nazara
+# for his master at Universitas Udayana Bali 1999
+
+SET UTF-8
+TRY aiöounmʼglfetrshdwbkzyŵLYWpMFZvSRKj
+#TRY esijanrtolcdugmphbyfvkwqxzöŵESIJANRTOLCDUGMPHBYFVKWQXZÖŴʼ
+
+ICONV ' ʼ
+#ICONV " ”
+
+# Replacement
+
+#REP 2
+#REP hewaʼae heŵaʼae
+#REP hauga haʼuga
+#REP hezoso heza so
+#REP hasambalö ha sambalö
+#REP hegöi he göi
+
+# Prefix
+
+PFX A Y 4	# a-,  am-, ang-
+PFX A   0	a	[dghiklmnprstwz]	#aduwa, afatö
+PFX A   b	am	b	# bözi > amözi
+PFX A   f	am	f	# fake > amake
+PFX A   0	ang	[eo]	# owalu > angowalu, e'esi > ange'esi
+
+PFX F Y 6	# fa-
+PFX F   0	f	[ao]	# famadu, famesu, fanukhu, fangandrö, fo'ömö, fohalöŵö, folobö, fowöli, folowi
+PFX F   0	fa	[bdfghklmnprstwz]	# fabago, fadou, falua, fanönö, falimo, fasao, fatezu, faŵara, 
+PFX F   0	fa'	[aeioöu]	# anau > fa'anau, oböwö > fa'oböwö	
+PFX F   0	fa'a	[tm]	# tehawu > fa'atehawu, teföfö > fa'ateföfö, mate > fa'amate
+PFX F   b	fam	b	# bu'a > famu'a, bözi > famözi
+PFX F   0	f	[ao]	# amölö > famölö, angombakha > fangombakha, ohalöŵö > fohalöŵö, owöli > fowöli
+#PFX F   s	faz	s	# sökhi > fazökhi !!! fasasi, fasöbi
+
+PFX L Y 1	# la-
+PFX L   0	la
+
+PFX M Y 7	# ma-
+PFX M   0	m	[ao]	# mamadu, mamesu, manukhu, mangandrö, mo'ömö, mohalöŵö, molobö, mowöli, molowi
+PFX M   0	ma	m	# mamofanö, mamoloi
+PFX M   0	ma'a	m	# mamofanö, mamoloi
+PFX M   b	mam	b	# mameta, mamörögö, mamoto, mamu'a
+PFX M   s	man	s	# manese, manasa, manösö, manöbi
+PFX M   t	man	t	# manörö, manahö, manebu, manöbi
+PFX M   h	mang	h	# heta > mangeta, manasa, manösö, manöbi
+
+PFX Me Y 5	# me-
+PFX Me   0	me	[lŵ]	# melima, meŵalu
+PFX Me   d	mendr	d	# mendrua, mendro
+PFX Me   t	med	t	# medölu
+PFX Me   f	mew	f	# mewitu
+PFX Me   s	mez	s	# meziŵa
+
+PFX Mu Y 1	# mu-
+PFX Mu   0	mu	[tl]	# mutaba, mula'a
+
+PFX N Y 2	# ni-
+PFX N   0	ni	[bdfghklmnprstwz]	# nibadu, nisura, nitika
+PFX N   0	ni'	[aeioöu]	# ni'oguna'ö, ni'owasa
+
+PFX O Y 2	# o-
+PFX O   0	o	l	# laŵa > olaŵa, leu > oleu
+PFX O   r	ondr	r	# rino > ondrino, röi > ondröi
+
+PFX S Y 2	# sa-
+PFX S   0	sa	m	# samigu, samete
+PFX S   0	s	[aeioöu]	# sangandrö, sanagö, side'ide, sohalöŵö, sowanua
+
+PFX T Y 4	# ta-
+PFX T   0	ta	[bdfghklmnprstwz]	# tabadu, tadodo, taföföni, tagamö, tahalö, takandro
+PFX T   0	ta'	[aeioöu]	# ta'alui, ta'eregesi, ta'ifigö, ta'onoro, ta'ösö, ta'ungu
+PFX T   0	te	[bdfghklmnprstwz]	# teduhö, tefa'anö, tesöndra
+PFX T   0	te'	[aeioöu]	# te'agamöi, te'etu'ö, te'irö'ö, te'o'ou, te'ungugö
+
+PFX W Y 6	# wa-
+PFX W   0	wa'	[aeioöu]	# arörö
+PFX W   b	wam	b	# bokai > wamokai
+PFX W   f	wam	f	# fazaumba > wamazaumba
+PFX W   m	wa	f
+PFX W   0	wama
+#PFX W   z	wama	s	# söbi
+PFX W   0	wanga
+PFX W   0	wo
+PFX W   z	wo	s	# sasai
+
+PFX Y Y 1	# ya-
+PFX Y   0	ya
+
+
+# Suffix
+
+SFX I Y 1	# -i
+SFX I   0	i	.
+
+SFX O Y 1	# -ö
+SFX O   0	'ö	[aeioöu]	# fera'ö
+
+SFX G Y 1	# -gö
+SFX G   0	gö	.	# höndrögö
+
+SFX T Y 1	# -ta, angombakhata
+SFX T   0	ta	.
