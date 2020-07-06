@@ -1,6 +1,6 @@
 # Proyek Kamus Nias on Wiktionary
 
-Sekarang dalam tahap inkubasi dan terdapat di [Wiktionary Li Niha] (https://incubator.wikimedia.org/wiki/Wt/nia/Main_Page)
+Sekarang dalam tahap inkubasi dan terdapat di [Wiktionary Li Niha](https://incubator.wikimedia.org/wiki/Wt/nia/Main_Page)
 
 ## Standar penamaan audio files untuk pengucapan:
 
@@ -17,6 +17,7 @@ nia = kode bahasa
 
 ## Headings dalam entri:
 
+```
 ==Li Niha== (baris pertama menunjukkan bahasa)
 ===Fanguma'ö=== (pengucapan)
 ===Dialek Selatan=== 
@@ -35,10 +36,11 @@ nia = kode bahasa
 
 
 ===Gohe-gohe=== (referensi)
-
+```
 
 ## Kategori dalam entri
 
+```
 [[Category:Wt/nia/Adverbia]] (Klasifikasi kata sesuai KBBI)
 [[Category:Wt/nia/Adjektiva]]
 [[Category:Wt/nia/Nomina]]
@@ -62,4 +64,4 @@ nia = kode bahasa
 [[Category:Wt/nia/Transport]]
 [[Category:Wt/nia/Waktu]]
 [[Category:Wt/nia/Warna]]
-
+```
