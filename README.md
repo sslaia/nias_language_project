@@ -14,7 +14,8 @@ Tak dibantah lagi bahwa penggunaan bahasa Nias semakin berkurang dewasa ini. Pro
 - **Keyboard Nias** untuk komputer dengan Linux dan MS Windows
 - Android app untuk *mendokumentasi tanaman dan binatang Nias* ([Nias Explorer](https://github.com/sslaia/Nias-Explorer))
 - Android app untuk *menulis cerita dalam bahasa Nias* ([Towi-Towi](https://github.com/sslaia/Towi-Towi))
-- ...
+- Nias dictionary on Wikimedia -> Wiktionary Li Niha in incubator stage (https://incubator.wikimedia.org/wiki/Wt/nia/Main_Page)
+- Nias encyclopedia on Wikimedia -> Wikipedia Li Niha in incubator stage (https://incubator.wikimedia.org/wiki/Wp/nia/Olayama)
 
 Masih ada proyek lain yang penulis jalankan seperti proyek menerjemahkan buku Elio Modigliani yang mendokumentasikan Nias di abad ke-19 (proyek [Elio ba Danö Nia](https://elionias.blogspot.com/)) atau terjemahan populer (*crowd-translation*) Kitab Suci Perjanjian Baru (proyek **Taroma Li Khö Nono Niha**), tetapi penulis masih mencari *platform* yang memungkinkan kolaborasi penerjemahan yang tepat.
 
