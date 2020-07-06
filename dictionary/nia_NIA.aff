@@ -13,6 +13,7 @@
 # This file was created based on the research paper
 # written by Waözisökhi Nazara
 # for his master at Universitas Udayana Bali 1999
+# And added additional prefix suffix rules not found in the paper
 
 SET UTF-8
 TRY aiöounmʼglfetrshdwbkzyŵLYWpMFZvSRKj
@@ -32,32 +33,50 @@ ICONV ' ʼ
 
 # Prefix
 
-PFX A Y 4	# a-,  am-, ang-
+PFX A Y 5	# a-,  am-, ang-
 PFX A   0	a	[dghiklmnprstwz]	#aduwa, afatö
+PFX A   0	a'	[ao]	# a'aro'ö, a'oi, a'ozu
 PFX A   b	am	b	# bözi > amözi
 PFX A   f	am	f	# fake > amake
 PFX A   0	ang	[eo]	# owalu > angowalu, e'esi > ange'esi
 
-PFX F Y 6	# fa-
-PFX F   0	f	[ao]	# famadu, famesu, fanukhu, fangandrö, fo'ömö, fohalöŵö, folobö, fowöli, folowi
+PFX D Y 2	# da-
+PFX D   0	da	.	# datahalö, damafaigi, damura'u
+PFX D   0	da'	[aeiou]	# da'ulau, da'ato, da'ebua, da'ihalö, da'oroma
+
+PFX F Y 7	# fa-
+PFX F   0	f	[ao]	# famadu, famesu, fanukhu, fangandrö, fohalöŵö, folobö, fowöli, folowi
+				# amölö > famölö, angombakha > fangombakha, ohalöŵö > fohalöŵö, owöli > fowöli
 PFX F   0	fa	[bdfghklmnprstwz]	# fabago, fadou, falua, fanönö, falimo, fasao, fatezu, faŵara, 
 PFX F   0	fa'	[aeioöu]	# anau > fa'anau, oböwö > fa'oböwö	
+PFX F   0	fo	[bdfghklmnprstwz]	# fobörö, fodane-dane, fofanö, fogama-gama, fohare, fokökö, 
+						# folaŵa, fo
+PFX F   0	fo'	[aeioöu]	# fo'ömö, fo'ösi, fo'uli
+PFX F   k	fog	k		# fogo'o, fondrorogö, fondrara
+PFX F   0	fom	b		# fombaso, fombayagö, fombalugö, fombönökhi, fomba'agö, fombagi
+PFX F   0	fond	r		# fondrugi, fondrorogö, fondrara
 PFX F   0	fa'a	[tm]	# tehawu > fa'atehawu, teföfö > fa'ateföfö, mate > fa'amate
-PFX F   b	fam	b	# bu'a > famu'a, bözi > famözi
-PFX F   0	f	[ao]	# amölö > famölö, angombakha > fangombakha, ohalöŵö > fohalöŵö, owöli > fowöli
+PFX F   b	fam	b	# famu'a, famokai, famözi
+PFX F   f	fam	f	# famati, famatö, famuli
 #PFX F   s	faz	s	# sökhi > fazökhi !!! fasasi, fasöbi
 
-PFX L Y 1	# la-
-PFX L   0	la
+PFX G Y 1	# g- di depan kata kerja
+PFX G   0	g	[aeiou]	# gangandröŵa, gangetula, game'ela, gabula, gama'u'u, gamabu'ula, gamadöniŵa, gamaedola
+					# gelemu, geheha, geluaha, gera'era, gila'ila, girö-girö, goboula
+					# gofanöŵa, gohitö, gölinia, golombaseŵa, gurakha, gurifö
 
-PFX M Y 7	# ma-
-PFX M   0	m	[ao]	# mamadu, mamesu, manukhu, mangandrö, mo'ömö, mohalöŵö, molobö, mowöli, molowi
-PFX M   0	ma	m	# mamofanö, mamoloi
-PFX M   0	ma'a	m	# mamofanö, mamoloi
-PFX M   b	mam	b	# mameta, mamörögö, mamoto, mamu'a
-PFX M   s	man	s	# manese, manasa, manösö, manöbi
-PFX M   t	man	t	# manörö, manahö, manebu, manöbi
-PFX M   h	mang	h	# heta > mangeta, manasa, manösö, manöbi
+PFX L Y 2	# la-
+PFX L   0	la	[bdfghklmnprstwz]	# labaloi, lada'i-da'i, lafaöga
+PFX L   0	la'	[aeiou]	# la'aröu'ö, la'erogö, la'iki'ö, la'otölu, la'usu.
+
+PFX Ma Y 7	# ma-
+PFX Ma   0	m	[ao]	# mamadu, mamesu, manukhu, mangandrö, mo'ömö, mohalöŵö, molobö, mowöli, molowi
+PFX Ma   0	ma	m	# mamofanö, mamoloi
+PFX Ma   0	ma'a	m	# mamofanö, mamoloi
+PFX Ma   b	mam	b	# mameta, mamörögö, mamoto, mamu'a
+PFX Ma   s	man	s	# manese, manasa, manösö, manöbi
+PFX Ma   t	man	t	# manörö, manahö, manebu, manöbi
+PFX Ma   h	mang	h	# heta > mangeta, manasa, manösö, manöbi
 
 PFX Me Y 5	# me-
 PFX Me   0	me	[lŵ]	# melima, meŵalu
@@ -73,9 +92,11 @@ PFX N Y 2	# ni-
 PFX N   0	ni	[bdfghklmnprstwz]	# nibadu, nisura, nitika
 PFX N   0	ni'	[aeioöu]	# ni'oguna'ö, ni'owasa
 
-PFX O Y 2	# o-
+PFX O Y 4	# o-
 PFX O   0	o	l	# laŵa > olaŵa, leu > oleu
-PFX O   r	ondr	r	# rino > ondrino, röi > ondröi
+PFX O   0	ond	r	# rino > ondrino, röi > ondröi
+PFX O   0	ö	[bdfghklmnprstwz]
+PFX O   0	ö'	[aeiou]	# ö'asogö, ö'ebua'ö, ö'ifigö, ö'ondrasi, ö'uta'ö
 
 PFX S Y 2	# sa-
 PFX S   0	sa	m	# samigu, samete
@@ -91,10 +112,7 @@ PFX W Y 6	# wa-
 PFX W   0	wa'	[aeioöu]	# arörö
 PFX W   b	wam	b	# bokai > wamokai
 PFX W   f	wam	f	# fazaumba > wamazaumba
-PFX W   m	wa	f
-PFX W   0	wama
-#PFX W   z	wama	s	# söbi
-PFX W   0	wanga
+PFX W   0	wang	[aeiou]	# wangatulö, wange'esi, wangi'ila, wanguma	
 PFX W   0	wo
 PFX W   z	wo	s	# sasai
 
@@ -104,14 +122,44 @@ PFX Y   0	ya
 
 # Suffix
 
-SFX I Y 1	# -i
-SFX I   0	i	.
+SFX a Y 1	# -a
+SFX a   0	a	.	# to'ölöa, ndröfia, elungua, alölöa
 
-SFX O Y 1	# -ö
-SFX O   0	'ö	[aeioöu]	# fera'ö
+SFX d Y 2	# -d
+SFX d   0	da
+SFX d   0	do	# abusodo, mofönudo
 
-SFX G Y 1	# -gö
-SFX G   0	gö	.	# höndrögö
+SFX g Y 3	# -g
+SFX g   0	ga	# fatahöga, 
+SFX g   0	gö	# höndrögö
+SFX g   0	gu
 
-SFX T Y 1	# -ta, angombakhata
-SFX T   0	ta	.
+SFX l Y 1	# la
+SFX l   0	la	.	# angetula, amatela
+
+SFX m Y 2	# m
+SFX m   0	ma	.
+SFX m   0	mö	
+
+SFX n Y 1	# nia
+SFX n   0	nia	.
+
+SFX o Y 1	# -ö
+SFX o   0	'ö	[aeioöu]	# fera'ö, aro'ö, abe'e'ö
+
+SFX r Y 1	# ra
+SFX r   0	ra	.
+
+SFX t Y 1	# -ta
+SFX t   0	ta	.	# angombakhata, fasuwöta, 
+
+SFX u Y 1	# u
+SFX u   0	u	.
+
+SFX w Y 1	# ŵa
+SFX w   0	ŵa	.	# olalöŵa, 
+
+
+
+
+
