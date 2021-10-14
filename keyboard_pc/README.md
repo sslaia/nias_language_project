@@ -8,6 +8,6 @@ Gunakan **niaskbid.zip** bila Anda memakai Windows dalam bahasa Indonesia (biasa
 
 Untuk komputer bersistem Linux tak perlu menginstalasi apa-apa. Tinggal kopi file **.Xmodmap** ke home folder Anda dan jalankan **xmodmap .Xmodmap**, seperti diuraikan dalam petunjuk instalasi lengkap.
 
-Silakan [klik di sini](https://niaskeyboard.blogspot.com/2019/02/cara-memasang-huruf-o-dan-w-di-papan.html) untuk membaca petunjuk lengkap cara memasang keyboard Nias untuk komputer Linux/Ubuntu dan Windows. 
+Silakan membaca panduan lengkap di [Memasang huruf ŵ dan ö di komputer Windows 10](https://niaskeyboard.blogspot.com/2021/05/niasid-memasang-huruf-w-dan-o-di.html) untuk komputer Windows dan [Memasang huruf ö dan ŵ di Ubuntu/Linux](https://niaskeyboard.blogspot.com/2021/05/memasang-huruf-o-dan-w-di-komputer.html) untuk komputer Linux/Ubuntu. 
 
 
