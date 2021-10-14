@@ -17,7 +17,7 @@ Tak dibantah lagi bahwa penggunaan bahasa Nias semakin berkurang dewasa ini. Pro
 - Nias dictionary on Wikimedia -> [Wiktionary Li Niha](https://nia.wiktionary.org)
 - Nias encyclopedia on Wikimedia -> [Wikipedia Li Niha](https://nia.wikipedia.org)
 - Nias books on Wikimedia -> [Wikibuku Li Niha](https://incubator.wikimedia.org/wiki/Wb/nia/Olayama) (still in incubator)
-- Android app untuk mengakses Wikipedia, Wiktionary dan Wikibuku Nias. Telah tersedia di [Google Play Store]([Google Play Store](https://play.google.com/store/apps/details?id=com.blogspot.niaswiki).). Klik di [sini]([Google Play Store](https://play.google.com/store/apps/details?id=com.blogspot.niaswiki).) untuk menginstalasinya.
+- Android app untuk mengakses Wikipedia, Wiktionary dan Wikibuku Nias. Telah tersedia di [Google Play Store](https://play.google.com/store/apps/details?id=com.blogspot.niaswiki). Klik di [sini](https://play.google.com/store/apps/details?id=com.blogspot.niaswiki) untuk menginstalasinya.
 
 <a href="https://play.google.com/store/apps/details?id=com.blogspot.niaswiki"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" height="80pt"/></a>
 
