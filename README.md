@@ -9,6 +9,7 @@ Tak dibantah lagi bahwa penggunaan bahasa Nias semakin berkurang dewasa ini. Pro
 
 ## Proyek yang ditangani (telah selesai)
 
+- [Nias Keyboard Extension for Chromebook](https://github.com/sslaia/nias-keyboard-extension/tree/main) untuk Chromebooks. Tersedia di halaman ybs di GitHub.
 - [Keyboard Nias](https://github.com/sslaia/AnySoftKeyboard/tree/master/addons/languages/nias) untuk smartphones. Telah tersedia di [Google Play Store](https://play.google.com/store/apps/details?id=com.anysoftkeyboard.languagepack.nias) atau unduh berkas apk yang disediakan di kolom kanan halaman ini. Mohon membaca panduan instalasi di [Menginstalasi papan ketik Nias di smartphone Android](https://niaskeyboard.blogspot.com/2021/04/anysoftkeyboard-memasang-huruf-o-dan-w.html)
 - **Keyboard Nias** untuk komputer dengan Linux dan MS Windows. Telah selesai. Baca panduan menginstalasinya di [Memasang huruf ŵ dan ö di komputer Windows 10](https://niaskeyboard.blogspot.com/2021/05/niasid-memasang-huruf-w-dan-o-di.html) dan di [Memasang huruf ö dan ŵ di Ubuntu/Linux](https://niaskeyboard.blogspot.com/2021/05/memasang-huruf-o-dan-w-di-komputer.html)
 - Wikikamus Nias -> [Wiktionary Li Niha](https://nia.wiktionary.org) (telah layak digunakan)
